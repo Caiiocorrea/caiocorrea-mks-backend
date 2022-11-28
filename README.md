@@ -27,13 +27,19 @@ PostgreSQL database connection options are shown in the following table:
 | Port     | 5432        |
 | Username | postgres    |
 | Password | postgres    |
-| Database | demodb      |  
+| Database | postgres    |  
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ npm run start or npm run start:dev
+
+# development
+$ yarn start or yarn start:dev
+
+# docker
+$ docker-compose up
 ```
 
 ## Swagger API docs

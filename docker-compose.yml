@@ -13,9 +13,9 @@ services:
     volumes:
       - .:/usr/app
       - ./app:/usr/src/app/app
-    # depends_on:
-      # - postgres
-      # - redis
+    depends_on:
+      - postgres
+      - redis
     networks:
       - postgres-compose-network
 
