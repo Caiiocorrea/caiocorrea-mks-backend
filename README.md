@@ -1,7 +1,12 @@
 
 ## Description
-
- Creating relationships with Postgres and TypeORM, JWT authenticatio and swagger.
+ Project - Film catalog, the following tools were used:
+ 
+ - Postgres, 
+ - TypeORM, 
+ - JWT authentication
+ - Swagger Documentation
+ - Redis Cache
 
 ### Technologies implemented:
 
