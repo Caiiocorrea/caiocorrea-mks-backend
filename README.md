@@ -2,12 +2,6 @@
 ## Description
  Project - Film catalog, the following tools were used:
  
- - Postgres, 
- - TypeORM, 
- - JWT authentication
- - Swagger Documentation
- - Redis Cache
-
 ### Technologies implemented:
 
 -   [Nestjs](https://nestjs.com/) 
@@ -15,11 +9,12 @@
 -   [JWT](https://jwt.io/)
 -   [TypeORM](https://typeorm.io/#/)
 -   [NestJS Swagger](https://github.com/nestjs/swagger)
+-   [NestJS Redis](https://docs.nestjs.com/techniques/caching)
 
 ## Installation
 
 ```bash
-$ npm install
+$ npm install or yarn install
 ```
 
 ## Setting up the database for development 
